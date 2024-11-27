@@ -1,0 +1,16 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "nodejs API deployment to AWS EC2 using GitHub CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sandip",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
